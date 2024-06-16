@@ -6,15 +6,15 @@
   "permissions": [
     "declarativeNetRequest",
     "storage",
-    "tabs" 
+    "tabs"
   ],
-  "optional_permissions":[],
+  "optional_permissions": [],
   "optional_host_permissions": [
     "<all_urls>"
   ],
   "background": {
     "service_worker": "sw/sw.js",
-    "type":"module"
+    "type": "module"
   },
   "icons": {
     "128": "images/off.png"
@@ -23,5 +23,5 @@
     "page": "options/options.html",
     "open_in_tab": true
   },
-  "action":{} 
-  }
+  "action": {}
+}
