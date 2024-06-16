@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Options</title>
+    <link href="options.css" rel="stylesheet">
+    <script src="options.js" type="module"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div><label>
+                    <input id="setConnectSrcChbx" type="checkbox" name="setConnectSrc">
+                    Modify the Content Security Policy (CSP) to allow scripts to access all URLs
+                </label> </div>
+            <div class="explanation">You have to reload the page for this option to take effect. CSP is set during loading of an HTML page by the
+                response header <span>Content-Security-Policy</span>. After the HTML has been loaded,
+                the CSP cannot be modified.</div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+:root {
+    --color: darkslategrey;
+    --borderColor: silver;
+}
+
+* {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color);
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+    margin: 0;
+    vertical-align: text-top;
+}
+
+span {
+    font-style: italic;
+    background-color: gainsboro;
+    color: var(--color);
+}
+
+.content {
+    text-align: center;
+    width: min-content;
+}
+
+.content>div {
+    margin: 1em 0;
+}
+
+div#requestDiv {
+    display: none;
+}
+
+.explanation {
+    text-align: justify;
+    color: firebrick;
+}
+
+label {
+    white-space: nowrap;
+}
