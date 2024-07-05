@@ -2,7 +2,7 @@ import { newRules } from "./template.js";
 import { loadOptions } from '../../shared/options.js';
 import { hostname } from '../net/url.js';
 import { showAllRules } from './debug.js';
-
+ 
 
 function updateRulesRemoveIds(addRules, removeRuleIds) {
     return chrome.declarativeNetRequest

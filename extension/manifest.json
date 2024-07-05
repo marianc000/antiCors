@@ -1,20 +1,20 @@
 {
   "name": "Anti-CORS, anti-CSP",
-  "description": "Enable cross origin requests with fetch() or XMLHttpRequest that are blocked by CORS policy or violate the document’s CSP",
-  "version": "0.0.2",
+  "description": "Enable cross origin requests blocked by CORS or CSP. Disable CORS and CSP in selected hostnames, preserve security of other websites",
+  "version": "0.0.4",
   "manifest_version": 3,
   "permissions": [
     "declarativeNetRequest",
     "storage",
-    "tabs"
+    "tabs" 
   ],
-  "optional_permissions": [],
+  "optional_permissions":[],
   "optional_host_permissions": [
     "<all_urls>"
   ],
   "background": {
     "service_worker": "sw/sw.js",
-    "type": "module"
+    "type":"module"
   },
   "icons": {
     "128": "images/off.png"

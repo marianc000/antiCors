@@ -64,7 +64,7 @@ async function setStateFromObject({ title, imagePath }, tabId) {
 
 export async function setNextState(url) {
     const nextState = !await rulesExistForUrl(url);
-
+ 
     await setStateForUrl(url, nextState);
     
     if (nextState)

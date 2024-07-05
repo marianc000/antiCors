@@ -10,5 +10,5 @@ chrome.action.onClicked.addListener(onClicked);
 chrome.storage.onChanged.addListener(optionsChanged);
 
 chrome.tabs.onUpdated.addListener(setCorrectIconForTabId);
- 
+
 chrome.permissions.onRemoved.addListener(onInstalled);

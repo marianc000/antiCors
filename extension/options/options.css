@@ -3,7 +3,7 @@
     --borderColor: silver;
 }
 
-* {
+html {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--color);
@@ -53,4 +53,14 @@ div#requestDiv {
 
 label {
     white-space: nowrap;
+}
+
+.contact {
+    padding-top: 2em;
+    font-size: 0.9em;
+}
+
+a {
+    color: mediumblue;
+    text-decoration: none;
 }
